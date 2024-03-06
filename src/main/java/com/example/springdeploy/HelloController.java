@@ -17,7 +17,7 @@ public class HelloController {
         return "Soy Miguel y soy un gran programador y me gusta mucho Spring";
     }
 
-    @RequestMapping(value = "/bootstrap")
+    @RequestMapping(value = "/")
     public String bootstrap(){
         return """
                 <!doctype html>
